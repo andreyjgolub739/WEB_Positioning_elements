@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Лабораторна робота 12</title>
+    </head>
+    <body>
+        <div class="from-container">
+            <form>
+                <label for="name">Ім'я</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" if="email" name ="email" required>
+                
+                <p>Стать</p>
+                <label><input type="radio" name="gender" value="male" required> Чоловік</label>
+                <label><input type="radio" name="gender" value="female"> Жінка</label>
+                <label><input type="radio" name="gender" value="other"> Інше</label>
+                
+                <label><input type="checkbox" name="agree" required> Погоджуюсь з умовами</label>
+    
+                <button type="submit">Відправити</button>
+            </form>
+        </div>
+
+        <footer class="fixed-message">Фіксований футер</footer>
+    </body>
+</html>
